@@ -1,8 +1,15 @@
+import Header from "./Header";
+import Body from "./Body";
+import './style.css';
+import Footer from "./Footer";
+
 const App = () => {
     return (
-        <h1>
-            Creating React App from Scratch
-        </h1>
+        <div className="app">
+        <Header />
+        <Body />
+        <Footer />
+        </div>
     )
 }
 
