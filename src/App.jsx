@@ -1,7 +1,9 @@
-import Header from "./Header";
-import Body from "./Body";
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
+import Header from "./components/Header";
+import Body from "./components/Body";
 import './style.css';
-import Footer from "./Footer";
+import Footer from "./components/Footer";
 
 const App = () => {
     return (
@@ -13,4 +15,10 @@ const App = () => {
     )
 }
 
-export default App;
+
+const root = createRoot(document.getElementById('root'));
+root.render(
+    <StrictMode>
+        <App />
+    </StrictMode>
+)
