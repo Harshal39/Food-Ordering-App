@@ -1,0 +1,50 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  margin: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 15px;
+  align-items: center;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  border-radius: 11px;
+}
+
+.logo {
+  width: 70px;
+  cursor: pointer;
+}
+
+.nav-items > ul {
+  font-size: 18px;
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  gap: 10px;
+}
+
+.nav-items > ul > li {
+  cursor: pointer;
+  padding: 10px;
+}
+
+.loginBtn {
+  background-color: orange;
+  border-radius: 5px;
+  padding: 7px 15px;
+  font-size: 18px;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+}
+
+.loginBtn:hover {
+  background-color: #f6bb4d;
+}
