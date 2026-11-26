@@ -3,7 +3,6 @@ import { useState } from "react";
 
 const Header = () => {
   const [btnNameReact, setBtnNameReact] = useState("Login");
-  console.log("Header Rendered");
 
   return (
     <div className="header">
